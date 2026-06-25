@@ -1,0 +1,16 @@
+feature
+parental_edu_rank
+advantage_score
+race_group_code
+gender_female
+gender_male
+race_ethnicity_group e
+parental_education_bachelor's degree
+parental_education_high school
+lunch_free/reduced
+lunch_standard
+test_prep_completed
+test_prep_none
+prep_completed
+ses_index
+gender_code

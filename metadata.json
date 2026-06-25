@@ -1,0 +1,56 @@
+{
+  "best_model": "Ridge Regression",
+  "target": "average_score",
+  "numerical_cols": [
+    "math_reading_gap",
+    "reading_writing_gap",
+    "score_std",
+    "parental_edu_rank",
+    "advantage_score",
+    "race_group_code"
+  ],
+  "categorical_cols": [
+    "gender",
+    "race_ethnicity",
+    "parental_education",
+    "lunch",
+    "test_prep"
+  ],
+  "binary_cols": [
+    "prep_completed",
+    "ses_index",
+    "gender_code"
+  ],
+  "drop_cols": [
+    "math_score",
+    "reading_score",
+    "writing_score",
+    "average_score"
+  ],
+  "metrics": [
+    {
+      "Model": "Ridge Regression",
+      "MAE": 10.393,
+      "MSE": 178.0981,
+      "RMSE": 13.3453,
+      "R2": 0.1692,
+      "MAPE": 20.8448
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 11.2997,
+      "MSE": 209.6086,
+      "RMSE": 14.4779,
+      "R2": 0.0222,
+      "MAPE": 22.4201
+    },
+    {
+      "Model": "XGBoost",
+      "MAE": 10.992,
+      "MSE": 204.8391,
+      "RMSE": 14.3122,
+      "R2": 0.0445,
+      "MAPE": 21.8662
+    }
+  ]
+}
